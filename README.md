@@ -29,8 +29,8 @@ The CAD, the circuit plan and the code are done. The robot is not built yet and 
 | 2-slot 18650 holder (series wiring) | 1 | Holds the two cells | https://stemvolt.in/product/2-slot-18650-lithium-battery-holder/ |
 | 2-bay 18650 charger | 1 | Charges the cells outside the robot | https://www.amazon.in/Rechargeable-Lithium-Batteries-Capacity-Charging/dp/B0HPKNXB1Y |
 | Capacitor kit (needs 470 uF, 100 uF and 0.1 uF) | 1 | 470 uF on the motor supply, 100 uF on the 5V line, 0.1 uF on the 5V line and across each motor | https://www.theengineerstore.in/products/orange-500pcs-0-1uf-1000uf-plug-in-electrolytic-capacitor-kit |
-| Breadboard | 1 | Test the wiring before soldering | Local shop |
-| Jumper wire set | 1 | Test wiring | Local shop |
+| Breadboard | 1 | Test the wiring before soldering | https://robu.in/product/mb102-830-points-solderless-prototype-pcb-breadboard-high-quality/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWfQJu5IRqfuueVA79jtB_jz_&gclid=Cj0KCQiA-8XXBhDaARIsADnEOrCrw-nMEVTiFGZEYlI4sBkP3on9tEbcDeJd9OhFyKKFEWJ2oowoPL4aApJXEALw_wcB|
+| Jumper wire set | 1 | Test wiring | (https://robu.in/product/male-to-female-jumper-wires-40-pin-30cm/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWfQJu5IRqfuueVA79jtB_jz_&gclid=Cj0KCQiA-8XXBhDaARIsADnEOrCAunV3S3byX8FiwPW218qY_9EctsgCyyDF8KSz2syjbHw-GCbOs8MaAoN0EALw_wcB)|
 | Silicone wire 22AWG | 1 | Power and motor wiring | Local shop |
 | Male header pins | 1 strip | For modules that come without pins | Local shop |
 | M3 x 10 mm screws | 1 pack | Motors, caster and boards on the chassis | https://www.amazon.in/Rpi-shop-Phillip-Phillips-Quantity/dp/B08FG7DL3T/ |
@@ -38,7 +38,7 @@ The CAD, the circuit plan and the code are done. The robot is not built yet and 
 | M3 standoffs and nuts | 1 set | Hang the sensor bar under the front shelf | Local shop |
 | Zip ties or velcro strap | 1 set | Hold the battery holder and the motors | Local shop |
 | Heat shrink tubing | 1 set | Cover soldered joints | Local shop |
-| PLA filament (about 100 g) | 1 | The chassis, only if you print it yourself | Local shop or print shop |
+| PLA filament (about 100 g) | 1 | The chassis | Local shop or print shop |
 | Black electrical tape and white poster board | 1 each | Test track | Local shop |
 | Multimeter | 1 | Set the buck converter to 5V, check for shorts | Local shop |
 | Soldering iron and solder | 1 | Joins wires and header pins | Local shop |
