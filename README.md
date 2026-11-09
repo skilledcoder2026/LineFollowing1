@@ -15,8 +15,6 @@ The CAD, the circuit plan and the code are done. The robot is not built yet and 
 
 ## Bill Of Materials
 
-## Bill Of Materials
-
 | Component | Qty | Purpose | Purchase link |
 |---|---|---|---|
 | Arduino Nano (CH340, soldered) | 1 | Main controller: reads the sensors, runs the steering code, drives the motor driver | https://roboway.in/shop/arduino-nano-v3-0-development-board-ch340-clone-compatible-model-soldered |
