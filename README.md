@@ -15,36 +15,38 @@ The CAD, the circuit plan and the code are done. The robot is not built yet and 
 
 ## Bill Of Materials
 
+## Bill Of Materials
+
 | Component | Qty | Purpose | Purchase link |
 |---|---|---|---|
 | Arduino Nano (CH340, soldered) | 1 | Main controller: reads the sensors, runs the steering code, drives the motor driver | https://roboway.in/shop/arduino-nano-v3-0-development-board-ch340-clone-compatible-model-soldered |
-| USB cable for the Nano (mini-USB or USB-C, to match the board) | 1 | Uploads code and powers the board on the bench | Local shop |
+| Mini-USB cable for the Nano | 1 | Uploads code and powers the board on the bench | https://robocraze.com/products/mini-usb-cable-1-metre |
 | 5-channel IR sensor array (TCRT5000L) | 1 | Looks down at the floor to tell the black line from the white surface | https://roboway.in/shop/tcrt5000l-5-channel-tracking-sensor-tracking-module-infrared-sensor |
 | TB6612FNG motor driver module | 1 | Drives the left and right motors and wastes far less power than an L298N | https://roboway.in/shop/tb6612fng-dual-motor-driver-module-1a-for-arduino |
 | TT gear motor with 65 mm rubber wheel | 2 | Two-wheel drive, the robot steers by running one wheel faster than the other | https://colgroad.com/product/tt-gear-motor-with-65mm-rubber-wheel |
 | Metal ball caster | 1 | Third support point at the back so the robot balances | https://robocraze.com/products/metal-ball-omni-directional-caster-wheel |
 | Adjustable buck converter (MP1584, 3A) | 1 | Steps the battery down to a steady 5V for the Arduino, driver logic and sensors | https://www.rytronics.in/product/mini-mp1584-dc-dc-3a-adjustable-buck-module/ |
-| SPDT slide switch | 1 | Main on/off switch | Local shop |
-| 18650 Li-ion cell (protected) | 2 | Battery pack in series (2S, about 7.4V) | Local shop, from a trusted seller |
+| Sub-miniature SPDT toggle switch, 3A (pack of 5) | 1 | Main on/off switch on the battery positive wire | https://robocraze.com/products/sub-miniature-toggle-switchpack-of-5 |
+| 18650 Li-ion cell, 2600 mAh | 2 | Battery pack in series (2S, about 7.4V) | https://robocraze.com/products/3-7v-2600mah-18650-battery |
 | 2-slot 18650 holder (series wiring) | 1 | Holds the two cells | https://stemvolt.in/product/2-slot-18650-lithium-battery-holder/ |
 | 2-bay 18650 charger | 1 | Charges the cells outside the robot | https://www.amazon.in/Rechargeable-Lithium-Batteries-Capacity-Charging/dp/B0HPKNXB1Y |
 | Capacitor kit (needs 470 uF, 100 uF and 0.1 uF) | 1 | 470 uF on the motor supply, 100 uF on the 5V line, 0.1 uF on the 5V line and across each motor | https://www.theengineerstore.in/products/orange-500pcs-0-1uf-1000uf-plug-in-electrolytic-capacitor-kit |
-| Breadboard | 1 | Test the wiring before soldering | https://robu.in/product/mb102-830-points-solderless-prototype-pcb-breadboard-high-quality/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWfQJu5IRqfuueVA79jtB_jz_&gclid=Cj0KCQiA-8XXBhDaARIsADnEOrCrw-nMEVTiFGZEYlI4sBkP3on9tEbcDeJd9OhFyKKFEWJ2oowoPL4aApJXEALw_wcB|
-| Jumper wire set | 1 | Test wiring | (https://robu.in/product/male-to-female-jumper-wires-40-pin-30cm/?gad_source=1&gad_campaignid=17427802703&gbraid=0AAAAADvLFWfQJu5IRqfuueVA79jtB_jz_&gclid=Cj0KCQiA-8XXBhDaARIsADnEOrCAunV3S3byX8FiwPW218qY_9EctsgCyyDF8KSz2syjbHw-GCbOs8MaAoN0EALw_wcB)|
-| Silicone wire 22AWG | 1 | Power and motor wiring | Local shop |
-| Male header pins | 1 strip | For modules that come without pins | Local shop |
+| Breadboard (400 points) | 1 | Test the wiring before soldering | https://probots.co.in/breadboard-for-electronics-solderless-prototyping-400-points.html |
+| Jumper wires, male to male, 40 pcs | 1 | Test wiring | https://probots.co.in/male-to-male-jumper-wires-40-pcs-20-cm.html |
+| Silicone wire 22AWG (buy red and black) | 1 | Power and motor wiring | https://zbotic.in/product/22awg-extrasoft-silicone-wirecolor-red-pack-of-2/ |
+| Male header pins, 1x40 | 1 strip | For modules that come without pins | https://www.theengineerstore.in/products/40x1-pin-2-54mm-pitch-male-berg-strip |
 | M3 x 10 mm screws | 1 pack | Motors, caster and boards on the chassis | https://www.amazon.in/Rpi-shop-Phillip-Phillips-Quantity/dp/B08FG7DL3T/ |
 | M3 x 16 mm screws | 1 pack | Sensor bar standoffs | https://www.amazon.in/Rpi-shop-tensile-Machine-Quantity/dp/B07XY5YXKD |
-| M3 standoffs and nuts | 1 set | Hang the sensor bar under the front shelf | Local shop |
-| Zip ties or velcro strap | 1 set | Hold the battery holder and the motors | Local shop |
-| Heat shrink tubing | 1 set | Cover soldered joints | Local shop |
-| PLA filament (about 100 g) | 1 | The chassis | Local shop or print shop |
-| Black electrical tape and white poster board | 1 each | Test track | Local shop |
-| Multimeter | 1 | Set the buck converter to 5V, check for shorts | Local shop |
-| Soldering iron and solder | 1 | Joins wires and header pins | Local shop |
-| Wire cutter and stripper | 1 | Prepares the wires | Local shop |
-| Calipers or a ruler | 1 | Measure every part before finalising the CAD | Local shop |
-
+| M3 nylon standoffs, 10 or 12 mm, with nuts | 1 set | Hang the sensor bar under the front shelf | https://zbotic.in/product-category/mechanical-parts-and-workbench-tools/nuts-bolts-and-spacers/ |
+| Nylon cable ties, 100 mm | 10 | Hold the battery holder and the motors | https://probots.co.in/100mm-length-2-5mm-width-nylon-cable-tie-tag-white.html |
+| Heat shrink tubing set | 1 set | Cover soldered joints | https://zbotic.in/product/colorful-heat-shrink-tubing-insulation-set-168pcs/ |
+| PLA filament, 1.75 mm, 1 kg | 1 | The chassis, only if you print it yourself | https://www.theengineerstore.in/products/1-75mm-natural-pla-filament-1kg |
+| Black PVC electrical tape | 1 roll | The line the robot follows | https://quartzcomponents.com/products/insulation-electrical-tape-black |
+| White foam board, A2 | 1 | The track surface | https://justkraft.com/product/a2-white-foam-board--5mm-thick--1654-x-2339-inches--fb5mm-a2 |
+| Digital multimeter (DT830D) | 1 | Set the buck converter to 5V, check for shorts | https://robocraze.com/products/digital-multimeter |
+| Soldering iron kit (iron, stand, solder, wick) | 1 | Joins wires and header pins | https://robocraze.com/products/noel-7-in-1-soldering-iron-kit-25w-gold |
+| Wire cutter and stripper (included in the soldering kit) | 1 | Prepares the wires | https://robocraze.com/products/noel-7-in-1-soldering-iron-kit-25w-gold |
+| Digital caliper, 150 mm | 1 | Measure every part before finalising the CAD | https://roboway.in/?p=20731 |
 ## Circuit Diagram
 <img width="729" height="455" alt="circuit_diagram" src="https://github.com/user-attachments/assets/0346d820-ff8f-4404-a4d7-b3289c33479e" />
 
@@ -136,9 +138,4 @@ Use protected 18650 cells and charge them outside the robot. Take them out if it
 
 <img width="650" height="400" alt="Screenshot 2026-11-09 at 3 25 55 PM" src="https://github.com/user-attachments/assets/4c664efe-1f33-4ec2-8af6-f183e07e4383" />
 
-Not modelled yet: the caster. The sizes of the motor, battery holder and sensor board come from typical listings and need to be checked against the real parts.
 
-## Known gaps
-- The robot is not built or tested.
-- The caster is not in the CAD yet.
-- The sensor threshold, Kp and Kd are guesses until I test on a track.
